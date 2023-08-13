@@ -20,6 +20,9 @@ R='\033[31;1m'  # Red
 C='\033[36;1m'  # Cyan
 M='\033[35;1m'  # Magenta
 
+#Other
+D='date +%d.%m.%Y' #Date
+
 PS1="${CC}
 ┌─⊸[${RR}root${YY}@${GG}TheDarkRoot${CC}]⟜⊸[${GG}Com:${YY}\#${CC}]
 ├─⊸[${GG}Time:${YY}\t PM${CC}]⟜⊸[${GG}Date:${YY}date "+%d.%m.%Y"${CC}]
