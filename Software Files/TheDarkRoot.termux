@@ -22,7 +22,7 @@ M='\033[35;1m'  # Magenta
 
 PS1="${CC}
 ┌─⊸[${RR}root${YY}@${GG}TheDarkRoot${CC}]⟜⊸[${GG}Com:${YY}\#${CC}]
-├─⊸${CC}[${GG}Time:${YY}\T AM${CC}]⟜⊸[${GG}Date:${YY}\d${CC}]${CC}
-├─⊸[${GG}Folder:${YY}\W${CC}]⟜⊸[${GG}Pwd:${YY}\w${CC}]${CC}
+├─⊸[${GG}Time:${YY}\T PM${CC}]⟜⊸[${GG}Date:${YY}\d${CC}]
+├─⊸[${GG}Folder:${YY}\W${CC}]⟜⊸[${GG}Pwd:${YY}\w${CC}]
 └─⊸[:~# ${GG}"
 clear;toilet -t -f big ' DarkRoot' -F gay | lolcat;toilet -t -f term -F border --gay The quieter you become, the more you are able to hear. | lolcat
