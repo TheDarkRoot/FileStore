@@ -21,7 +21,7 @@ C='\033[36;1m'  # Cyan
 M='\033[35;1m'  # Magenta
 
 #Other
-D='date +%d.%m.%Y' #Date
+D=$(date "+%d.%m.%Y") #Date
 
 PS1="${CC}
 ┌─⊸[${RR}root${YY}@${GG}TheDarkRoot${CC}]⟜⊸[${GG}Com:${YY}\#${CC}]
