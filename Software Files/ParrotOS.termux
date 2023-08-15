@@ -4,7 +4,28 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 	}
 fi
 
-PS1='\033[36;1m┌─⊸[\033[31;1mroot\033[33;1m@\033[32;1mtermux\033[36;1m]⟜⊸[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├─⊸\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]⟜⊸[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├─⊸[\033[32;1mFolder:\033[33;1m\W\033[36;1m]⟜⊸[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└─⊸[:~# ٰ \033[35;1m❯\033[33;1m❯\033[31;1m❯ \033[32;1m'
-clear
-toilet -f big ' Hello, World!' -F gay | lolcat
-toilet -f term -F border --gay The quieter you become, the more you are able to hear. | lolcat
+# Color
+BB='\033[34;1m' # Blue Light
+YY='\033[33;1m' # Yellow Light
+GG='\033[32;1m' # Green Light
+WW='\033[0;1m'  # White Light
+RR='\033[31;1m' # Red Light
+CC='\033[36;1m' # Cyan Light
+MM='\033[35;1m' # Magenta Light
+B='\033[34;1m'  # Blue
+Y='\033[33;1m'  # Yellow
+G='\033[32;1m'  # Green
+W='\033[0;1m'   # White
+R='\033[31;1m'  # Red
+C='\033[36;1m'  # Cyan
+M='\033[35;1m'  # Magenta
+
+#Command
+D=$(date "+%d.%m.%Y") #Date
+
+PS1="${CC}
+┌─⊸[${RR}root${YY}@${GG}termux${CC}]⟜⊸[${GG}Com:${YY}\#${CC}]
+├─⊸[${GG}Time:${YY}\t PM${CC}]⟜⊸[${GG}Date:${YY}${D}${CC}]
+├─⊸[${GG}Folder:${YY}\W${CC}]⟜⊸[${GG}Pwd:${YY}\w${CC}]
+└─⊸[:~# ${GG}"
+clear;toilet -t -f big ' Hello, World!' -F gay | lolcat;toilet -t -f term -F border --gay The quieter you become, the more you are able to hear. | lolcat
