@@ -24,8 +24,8 @@ M='\033[35;1m'  # Magenta
 D=$(date "+%d.%m.%Y") #Date
 
 PS1="${CC}
-┌─⊸[${RR}root${YY}@${GG}TheDarkRoot${CC}]⟜⊸[${GG}Com:${YY}\#${CC}]${CC}
-├─⊸[${GG}Time:${YY}\t PM${CC}]⟜⊸[${GG}Date:${YY}${D}${CC}]${CC}
-├─⊸[${GG}Folder:${YY}\W${CC}]⟜⊸[${GG}Pwd:${YY}\w${CC}]${CC}
-└─⊸[:~# ${GG}"
+${CC}┌─⊸[${RR}root${YY}@${GG}TheDarkRoot${CC}]⟜⊸[${GG}Com:${YY}\#${CC}]
+${CC}├─⊸[${GG}Time:${YY}\t PM${CC}]⟜⊸[${GG}Date:${YY}${D}${CC}]
+${CC}├─⊸[${GG}Folder:${YY}\W${CC}]⟜⊸[${GG}Pwd:${YY}\w${CC}]
+${CC}└─⊸[:~# ${GG}"
 clear;toilet -t -f big ' DarkRoot' -F gay | lolcat;toilet -t -f term -F border --gay The quieter you become, the more you are able to hear. | lolcat
